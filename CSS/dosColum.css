@@ -4,14 +4,12 @@
 }
 body{
     background-color:whitesmoke;
-    position: relative;
-	padding-left: 4%;
-	padding-right: 4%;
-    margin-top: 2%;
-	margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    max-height: unset;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-left: auto;
+	margin-right: auto;
+	background-size: contain;
+	height: auto;
 }
 header{
 	background: url(../Imagenes/fondo1.jpg) ;
@@ -20,39 +18,25 @@ header{
     text-align: center;	
 }
 aside{
-	background: url(../Imagenes/fondo1.jpg) ;
+    background: url(../Imagenes/fondo1.jpg) ;
+    float: left;
 	margin-bottom: 15px;	
 	font-family: arial;
 	padding: 5px;
 	width: 15%;
 	text-align: center;
     display:block;
+
 }
 .secciones{
     width: 81%;
-    margin-bottom: 15px;
-	background:-moz-radial-gradient(center, circle,  #8258FA, #58ACFA);
-	background:-webkit-radial-gradient(center, circle, #8258FA, #58ACFA);
-    height: 500px;
-    margin-left: 245px;
+    margin-bottom: 20px;
+    margin-left: auto;
     position: relative;
-    top: -243px;
     float: right;	
-    display:block;
-}
-#seccion3{
-    width: 81%;
-    margin-bottom: 15px;
-	background:-moz-radial-gradient(center, circle,  #8258FA, #58ACFA);
-	background:-webkit-radial-gradient(center, circle, #8258FA, #58ACFA);
-    height: 110px;
 	display:block;
-    margin-left: 245px;
-    position: relative;
-    top: -243px;
-    float: right;
+    border: #ffffff; 
 }
-
 a {
 	cursor:help;
 	top:50px;
