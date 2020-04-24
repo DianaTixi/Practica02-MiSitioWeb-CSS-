@@ -163,11 +163,12 @@ aside a:visited {
 }
 
 .imgC1{
-	float: left;
+	position: relative;
+	float: right;
 	width: 20%;
-	margin-left: 20px;
 	margin-bottom: 15px;
 	margin-right: auto;
+	margin-left: 200px;
 	margin-top: 15px;
 }
 

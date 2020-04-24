@@ -1,43 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>PiedraFilosofal</title>
+    <title>Formulario</title>
     <meta charset="utf-8"/>
     <meta name="keywords" content="Agregar Contacto" />
     <link rel="stylesheet" type="text/css" href="../CSS/formulario.css" >
 </head>
 
 <body>
+    <header>
+
+    </header>
 
     <div id="contenedor">
         <fieldset>
-        <h2>Agregar Contacto</h2>
-        <div id="log">
-        
-        <img src="../Imagenes/logg.png" width="200" height="100" >
-        </div>
+            <h2>Agregar Contacto</h2>
 
-        <form action="mailto:tixidiana2@gmail.com" method="post" enctype="text/plain">
-        <label for="nombre">Nombre: </label><input type="text" name="nombre" ><br><br>
-        <label for="apellidos">Apellidos: </label><input type="text" name="apellidos" >
-        <br><br>
-        <label for="edad">Edad:</label><input type="number" name="edad">
-        <br><br>
-        <label for="genero">Genero:</label>
-        <br>
-        <input type="radio" id="masculino" name="genero" value="masculino"><label for="masculino">Masculino</label>
-        <br>
-        <input type="radio" id="femenino" name="genero" value="femenino" checked><label for="femenino">Femenino</label>
-        <br><br>
-        <label for="correo">Correo electrónico: </label><input type="email"  name="correo" >
-        <br><br>
-        <label for="telefono">Telefono: </label><input type="text" name="telefono">
-        <br><br>
-        <input type="submit" value="Enviar formulario">
-        <input type="reset" value="Borrar formulario">
-        </fieldset>
-        </form>   
-        </div>
+            <div id="log">
+            <img src="../Imagenes/logg.png" width="200" height="100" alt="logo de la pagina" >
+            </div>
+
+            <form action="mailto:tixidiana2@gmail.com" method="post" enctype="text/plain">
+            <label id="nombre">Nombre: </label><input type="text" name="nombre" >
+            <br><br>
+
+            <label id="apellidos">Apellidos: </label><input type="text" name="apellidos" >
+            <br><br>
+
+            <label id="edad">Edad:</label><input type="number" name="edad">
+            <br><br>
+
+            <label id="genero">Genero:</label>
+            <br>
+            <input type="radio" id="masculino" name="genero" value="masculino"><label for="masculino">Masculino</label>
+            <br>
+            <input type="radio" id="femenino" name="genero" value="femenino" checked><label for="femenino">Femenino</label>
+            <br><br>
+
+            <label id="correo">Correo electrónico: </label><input type="email"  name="correo" >
+            <br><br>
+
+            <label id="telefono">Telefono: </label><input type="text" name="telefono">
+            <br><br>
+
+            <input type="submit" value="Enviar formulario">
+            <input type="reset" value="Borrar formulario">
+        
+            </form> 
+        </fieldset>  
+    </div>
     
 </body>
 </html>

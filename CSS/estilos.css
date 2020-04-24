@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: floralwhite;
+
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    color: floralwhite;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+    color: slategrey;
+}
+h5{
+    color: darkgray;
+}
+h6{
+    font-size: 15px;
+    text-align: center;
+}
+.barraL p{
+    color: whitesmoke;
+    font-size: 15px;
+}
+table{
+    border: 2px solid black;
+}
+
+th, td{
+    text-align: center;
+    border: 2px solid darkslateblue ;
+}
