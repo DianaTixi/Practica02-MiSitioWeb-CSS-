@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+	margin: 0px;
+}
+body{
+    background-color:whitesmoke;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-left: auto;
+	margin-right: auto;
+	background-size: contain;
+	height: auto;
+}
+form{
+    width: 50%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: auto;
+    color: whitesmoke;
+}
+
+form label{
+    width: 100px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"]{
+	padding:3px 10px;
+	border:1px solid black;
+	border-radius:3px;
+
+}
+form input[type="submit"],
+form input[type="reset"]{
+    width:40%;
+    float: left;
+	padding:8px 16px;
+    margin-top:15px;
+    margin-left: 25px;
+	border:1px solid rgb(73, 79, 156);
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover{
+	cursor:pointer;
+}
+
+#contenedor{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 15px;
+    margin-top: 15px;
+    background: url(../Imagenes/fondo1.jpg)
+}
+#log{
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-top: -35px;
+    margin-left: -25px;
+}
+h2{
+    text-align: center;
+    color: wheat;
+}
