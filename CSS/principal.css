@@ -1,4 +1,3 @@
-
 *{
     padding: 1px;
     margin: 1px;
@@ -70,11 +69,9 @@ nav a:hover{
 nav a:link {
   text-decoration: none;
 }
-
 nav a:visited {
   text-decoration:none;
 }
-
 .menu_h{
     list-style-type: none;
 	margin: 0;
@@ -99,13 +96,10 @@ nav a:visited {
 	color: white;
 
 }
-
 a {
 	cursor:help;
 	top:50px;
 }
-
-
 aside a {
 	padding: 3px;
 }
@@ -121,7 +115,6 @@ aside a:link {
 aside a:visited {
   text-decoration:none;
 }
-
 #cabecera{
 	float: left;
 	margin-bottom: 15px;	
@@ -146,7 +139,6 @@ aside a:visited {
     width: auto;
     font-size: 100%;
 }
-
 #buscar {
 	
   	padding: 2px;
@@ -160,7 +152,6 @@ aside a:visited {
 
 	float: right;	
 }
-
 #trailer{
 	float: right;
 	/*padding: 10px;*/
@@ -168,15 +159,13 @@ aside a:visited {
 	height: 50%;
 	margin-right: 30px;	
 }
-
 #sec1{
-
 	height: auto;
 }
-
 #intro{
 width: 100%;
 margin-top: 15px;
+
 }
 #iconoF{
 	width: 6.5%;
@@ -196,7 +185,6 @@ margin-top: 15px;
 	height:65px;
 	text-align: center;
 }
-
 #logP1{
 	width: 13%;
 	height:130px;
@@ -239,7 +227,6 @@ margin-top: 15px;
 	text-align: center;
 	color:gray;
 }
-
 #capa3{
     width: 22%;
 	height:170px;
@@ -338,7 +325,6 @@ margin-top: 15px;
 	float: left;
 	width: fit-content;
 }
-
 .imgC1{
 	float: left;
 	width: 20%;
@@ -347,7 +333,6 @@ margin-top: 15px;
 	margin-right: auto;
 	margin-top: 15px;
 }
-
 .i1{
 	float: left;
 	margin-left: 100px;
@@ -364,14 +349,12 @@ h6{
 	font-size: 15px;
 	border: 1px solid rgb(75, 69, 143);
 }
-
 .secciones h6{
 	background-color: whitesmoke;
 	color:black;
 	text-align: center;
 	font-size: 20px;
 }
-
 .seccion2{
 	width: 100%;
 	float: left;
@@ -384,4 +367,6 @@ th , td {
 	border: 3px solid #402C60;
 	color: antiquewhite;
 }
+
+
 

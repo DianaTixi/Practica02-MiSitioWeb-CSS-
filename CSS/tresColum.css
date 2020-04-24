@@ -65,6 +65,7 @@ aside{
     border: #ffffff; 
 }
 footer{
+	background: url(../Imagenes/fondo1.jpg) ;
     position: relative;
     width: 100%;
     float: right;

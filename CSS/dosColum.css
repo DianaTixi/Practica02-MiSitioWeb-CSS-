@@ -11,39 +11,7 @@ body{
 	background-size: contain;
 	height: auto;
 }
-header{
-	background: url(../Imagenes/fondo1.jpg) ;
-	height: 150px;
-    margin-bottom: 15px;	
-    text-align: center;	
-}
-aside{
-    background: url(../Imagenes/fondo1.jpg) ;
-    float: left;
-	margin-bottom: 15px;	
-	font-family: arial;
-	padding: 5px;
-	width: 15%;
-	text-align: center;
-    display:block;
 
-}
-.secciones{
-    width: 81%;
-    margin-bottom: 20px;
-	margin-left: auto;
-	margin-right: auto;
-    position: relative;
-    float: right;	
-	display:block;
-	border: #ffffff;
-	background-color: white;
-}
-footer{
-    position: relative;
-    width: 100%;
-    float: right;
-}
 nav{
 	padding:0;
 	height:50px;
@@ -115,6 +83,41 @@ aside a:link {
 
 aside a:visited {
   text-decoration:none;
+}
+header{
+	background: url(../Imagenes/fondo1.jpg) ;
+	height: 150px;
+    margin-bottom: 15px;	
+    text-align: center;	
+}
+aside{
+    background: url(../Imagenes/fondo1.jpg) ;
+    float: left;
+	margin-bottom: 15px;	
+	font-family: arial;
+	padding: 5px;
+	width: 15%;
+	text-align: center;
+    display:block;
+
+}
+.secciones{
+    width: 81%;
+    margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+    position: relative;
+    float: right;	
+	display:block;
+	border: #ffffff;
+	background-color: white;
+}
+footer{
+	background: url(../Imagenes/fondo1.jpg) ;
+    position: relative;
+    width: 100%;
+	float: right;
+	height: auto;
 }
 #logo1{
 	position: relative;

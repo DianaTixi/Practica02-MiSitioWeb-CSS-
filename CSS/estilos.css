@@ -53,14 +53,18 @@ aside p{
     color: whitesmoke;
     text-align: justify;
 }
+
 ul li {
     list-style-type: square;
     list-style-image: inherit;
  }
- aside.rss {
+ .rss {
     margin: 0;
     padding: 0;
     list-style-type: none;
  }
+footer p{
+    color: blanchedalmond;
+}
 
 
