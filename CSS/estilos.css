@@ -7,7 +7,7 @@ h1{
 h2{
     text-align: center;
     font-style: italic;
-    color: floralwhite;
+    color: gray;
 }
 h3{
     text-align: center;
@@ -29,7 +29,38 @@ table{
     border: 2px solid black;
 }
 
-th, td{
+th, td, tr{
     text-align: center;
     border: 2px solid darkslateblue ;
 }
+aside li{
+    color: whitesmoke;
+    text-align: center;
+}
+article li{
+    color: whitesmoke;
+    text-align: center;
+}
+aside table{
+    border: whitesmoke;
+    color: gray;
+}
+aside th, td{
+    border: 1px solid whitesmoke;
+
+}
+aside p{
+    color: whitesmoke;
+    text-align: justify;
+}
+ul li {
+    list-style-type: square;
+    list-style-image: inherit;
+ }
+ aside.rss {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+ }
+
+

@@ -36,7 +36,8 @@ aside{
     position: relative;
     float: right;	
 	display:block;
-    border: #ffffff; 
+	border: #ffffff;
+	background-color: white;
 }
 footer{
     position: relative;
